@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.a000webhostapp.docsforlife.docsupdater.MainActivity">
+
+
+    <item
+        android:id="@+id/overFlowMenu_NewFolder"
+        android:icon="@drawable/ic_create_new_folder_black_24dp"
+        android:orderInCategory="1"
+        android:title="@string/overflowmenu_newfolder"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/overFlowMenu_GridView"
+        android:orderInCategory="2"
+        android:title="@string/overflowmenu_gridview"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/overFlowMenu_SortBy"
+        android:orderInCategory="3"
+        android:title="@string/overflowmenu_sortby"
+        app:showAsAction="never" />
+
+
+
+</menu>
